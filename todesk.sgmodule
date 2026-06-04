@@ -1,0 +1,7 @@
+#!name=ToDesk 强制直连模块
+#!desc=根据官方手册规范编写，将 Mac 端 ToDesk 进程强制插入到规则最顶部并走 DIRECT 策略。
+#!system=mac
+
+[Rule]
+PROCESS-NAME,ToDesk,DIRECT
+PROCESS-NAME,ToDesk_Service,DIRECT
