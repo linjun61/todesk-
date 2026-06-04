@@ -1,0 +1,11 @@
+#!name=远控软件强制直连模块
+#!desc=根据官方手册规范编写。将 Mac 端的 ToDesk 和 AweSun 进程强制插入到规则最顶部，走 DIRECT 策略，避免代理导致画面卡顿。
+#!system=mac
+
+[Rule]
+# ToDesk 远程协助
+PROCESS-NAME,ToDesk,DIRECT
+PROCESS-NAME,ToDesk_Service,DIRECT
+
+# AweSun 远程控制
+PROCESS-NAME,AweSun,DIRECT
