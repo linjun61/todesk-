@@ -1,0 +1,14 @@
+#!name=Mac 自定义直连模块
+#!desc=根据官方手册规范编写。将 ToDesk、AweSun 以及 wanyiwan.top 域名强制插入到规则最顶部，走 DIRECT 策略。
+#!system=mac
+
+[Rule]
+# ======= 网页/域名自定义直连 =======
+DOMAIN-SUFFIX,wanyiwan.top,DIRECT
+
+# ======= ToDesk 远程协助 =======
+PROCESS-NAME,ToDesk,DIRECT
+PROCESS-NAME,ToDesk_Service,DIRECT
+
+# ======= AweSun 远程控制 =======
+PROCESS-NAME,AweSun,DIRECT
