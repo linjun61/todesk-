@@ -1,8 +1,12 @@
 #!name=Mac 自定义直连模块
-#!desc=根据官方手册规范编写。将 ToDesk、AweSun 以及 wanyiwan.top 域名强制插入到规则最顶部，走 DIRECT 策略。
+#!desc=根据官方手册规范编写。将特定 IP 网段、网页域名以及远控软件强制插入到规则最顶部，走 DIRECT 策略。
 #!system=mac
 
 [Rule]
+# ======= 自定义 IP 网段直连 =======
+# 匹配 111.111.*.* 的全网段流量
+IP-CIDR,111.111.0.0/16,DIRECT
+
 # ======= 网页/域名自定义直连 =======
 DOMAIN-SUFFIX,wanyiwan.top,DIRECT
 
