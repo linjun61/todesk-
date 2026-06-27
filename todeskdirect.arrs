@@ -1,7 +1,7 @@
-# NAME: todesk
+# NAME: CustomDirect
 # GENERATED-FOR: Anywhere Routing Rule Set
-# DESCRIPTION: 自定义直连规则（远控、网页、特定网段及查找）
-# RULES: 14
+# DESCRIPTION: 自定义直连（远控、网页、特定网段、苹果查找与网页版Find）
+# RULES: 16
 
 name = CustomDirect
 2, wanyiwan.top
@@ -17,4 +17,6 @@ name = CustomDirect
 2, autonavi.com
 2, ls.apple.com
 2, icloud.com.cn
+3, icloud-content
+3, setup.icloud
 3, findmy
