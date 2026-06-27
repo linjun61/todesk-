@@ -1,14 +1,20 @@
-.wanyiwan.top
-111.111.0.0/16
-keyword:todesk
-keyword:oray
-keyword:sunlogin
-112.53.40.192/26
-121.5.213.0/24
-114.132.221.0/24
-43.138.169.0/24
-keyword:amap
-.autonavi.com
-.ls.apple.com
-.icloud.com.cn
-keyword:findmy
+# NAME: todesk
+# GENERATED-FOR: Anywhere Routing Rule Set
+# DESCRIPTION: 自定义直连规则（远控、网页、特定网段及查找）
+# RULES: 14
+
+name = CustomDirect
+2, wanyiwan.top
+0, 111.111.0.0/16
+3, todesk
+3, oray
+3, sunlogin
+0, 112.53.40.192/26
+0, 121.5.213.0/24
+0, 114.132.221.0/24
+0, 43.138.169.0/24
+3, amap
+2, autonavi.com
+2, ls.apple.com
+2, icloud.com.cn
+3, findmy
