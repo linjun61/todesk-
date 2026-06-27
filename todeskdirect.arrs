@@ -1,14 +1,14 @@
-+ .wanyiwan.top
+.wanyiwan.top
 111.111.0.0/16
-~ todesk
-~ oray
-~ sunlogin
+keyword:todesk
+keyword:oray
+keyword:sunlogin
 112.53.40.192/26
 121.5.213.0/24
 114.132.221.0/24
 43.138.169.0/24
-~ amap
-+ .autonavi.com
-+ .ls.apple.com
-+ .icloud.com.cn
-~ findmy
+keyword:amap
+.autonavi.com
+.ls.apple.com
+.icloud.com.cn
+keyword:findmy
