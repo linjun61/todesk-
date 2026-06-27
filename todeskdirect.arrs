@@ -1,19 +1,14 @@
-# ======= 1. 网页与特定网段自定义直连 =======
-domain-suffix, wanyiwan.top, direct
-cidr, 111.111.0.0/16, direct
-
-# ======= 2. 远程协助软件网络特征 (跨平台通用) =======
-domain-keyword, todesk, direct
-domain-keyword, oray, direct
-domain-keyword, sunlogin, direct
-cidr, 112.53.40.192/26, direct
-cidr, 121.5.213.0/24, direct
-cidr, 114.132.221.0/24, direct
-cidr, 43.138.169.0/24, direct
-
-# ======= 3. 苹果“查找(Find My)”与定位服务 (国行优化) =======
-domain-keyword, amap, direct
-domain-suffix, autonavi.com, direct
-domain-suffix, ls.apple.com, direct
-domain-suffix, icloud.com.cn, direct
-domain-keyword, findmy, direct
+DOMAIN-SUFFIX,wanyiwan.top,DIRECT
+IP-CIDR,111.111.0.0/16,DIRECT
+DOMAIN-KEYWORD,todesk,DIRECT
+DOMAIN-KEYWORD,oray,DIRECT
+DOMAIN-KEYWORD,sunlogin,DIRECT
+IP-CIDR,112.53.40.192/26,DIRECT
+IP-CIDR,121.5.213.0/24,DIRECT
+IP-CIDR,114.132.221.0/24,DIRECT
+IP-CIDR,43.138.169.0/24,DIRECT
+DOMAIN-KEYWORD,amap,DIRECT
+DOMAIN-SUFFIX,autonavi.com,DIRECT
+DOMAIN-SUFFIX,ls.apple.com,DIRECT
+DOMAIN-SUFFIX,icloud.com.cn,DIRECT
+DOMAIN-KEYWORD,findmy,DIRECT
