@@ -1,7 +1,7 @@
 # NAME: CustomDirect
 # GENERATED-FOR: Anywhere Routing Rule Set
-# DESCRIPTION: 自定义直连（远控、网页、特定网段、苹果查找与网页版Find）
-# RULES: 16
+# DESCRIPTION: 自定义直连（解决网页版查找高德地图变海外苹果地图问题）
+# RULES: 19
 
 name = CustomDirect
 2, wanyiwan.top
@@ -20,3 +20,6 @@ name = CustomDirect
 3, icloud-content
 3, setup.icloud
 3, findmy
+2, maps.apple.com
+3, apple-mapkit
+2, webapi.amap.com
