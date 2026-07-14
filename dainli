@@ -1,0 +1,7 @@
+# NAME: OiXCloud-Proxy
+# GENERATED-FOR: Anywhere Routing Rule Set
+# DESCRIPTION: 强制将 oixcloud.com 及其子域名设为代理
+# RULES: 1
+
+name = OiXCloud-Proxy
+2, oixcloud.com
