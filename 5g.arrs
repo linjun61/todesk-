@@ -1,0 +1,17 @@
+# NAME: VoLTE-Direct
+# GENERATED-FOR: Anywhere Routing Rule Set
+# DESCRIPTION: 中国移动与中国电信 5G VoLTE / VoNR / IMS 语音直连规则
+# RULES: 11
+
+name = VoLTE-Direct
+3, ims.mnc
+2, ims.mnc000.mcc460.gprs
+2, ims.mnc002.mcc460.gprs
+2, ims.mnc007.mcc460.gprs
+2, ims.mnc005.mcc460.gprs
+2, ims.mnc011.mcc460.gprs
+2, cmpassport.com
+2, id6.me
+2, chinamobile.com
+2, 189.cn
+2, chinatelecom.com.cn
