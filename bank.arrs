@@ -1,0 +1,32 @@
+# NAME: Mainland-Banks-Direct
+# GENERATED-FOR: Anywhere Routing Rule Set
+# DESCRIPTION: 中国大陆主要商业银行及中国银联直连规则（防止代理触发风控）
+# RULES: 26
+
+name = Mainland-Banks-Direct
+2, icbc.com.cn
+2, icbc.com
+2, ccb.com
+2, ccb.com.cn
+2, boc.cn
+2, bankofchina.com
+2, abchina.com
+2, abchina.com.cn
+2, bankcomm.com
+2, cmbchina.com
+2, cmb-china.com
+2, psbc.com
+2, cib.com.cn
+2, spdb.com.cn
+2, citicbank.com
+2, cebbank.com
+2, pingan.com
+2, pingan.com.cn
+2, cmbc.com.cn
+2, cgbchina.com.cn
+2, hxb.com.cn
+2, czbank.com
+2, cbhb.com.cn
+2, unionpay.com
+2, chinaunionpay.com
+2, unionpay95516.com
