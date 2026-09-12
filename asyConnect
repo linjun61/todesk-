@@ -1,0 +1,25 @@
+#!name=My Custom Rules Integration
+#!desc=包含 EasyConnect, 内网 IP, 银行, Bilibili 及特定代理分流规则
+
+[General]
+skip-proxy = %, 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 111.111.0.0/16
+
+[Rule]
+DEST-PORT,13512,DIRECT
+IP-CIDR,111.111.253.32/32,DIRECT,no-resolve
+IP-CIDR,111.111.253.34/32,DIRECT,no-resolve
+IP-CIDR,111.111.0.0/16,DIRECT,no-resolve
+
+PROCESS-NAME,EasyConnect,DIRECT
+PROCESS-NAME,ECAgent,DIRECT
+DOMAIN-KEYWORD,sangfor,DIRECT
+DOMAIN-KEYWORD,easyconnect,DIRECT
+
+DOMAIN-SUFFIX,wanyiwan.top,DIRECT
+DOMAIN-KEYWORD,amap,DIRECT
+DOMAIN-KEYWORD,findmy,DIRECT
+
+DOMAIN-SUFFIX,oixcloud.com,Proxy
+DOMAIN-SUFFIX,bilibili.com,Proxy
+DOMAIN-SUFFIX,bilivideo.com,Proxy
+DOMAIN-KEYWORD,bilibili,Proxy
