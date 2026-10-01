@@ -1,0 +1,6 @@
+#!name=深信服 VDI 绕过 Surge
+#!desc=将桌面云服务器排除出增强模式和系统代理
+
+[General]
+tun-excluded-routes = %APPEND% 122.224.166.70/32
+skip-proxy = %APPEND% 122.224.166.70
