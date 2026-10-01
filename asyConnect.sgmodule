@@ -3,8 +3,7 @@
 
 [General]
 skip-proxy = %, 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 111.111.0.0/16
-tun-excluded-routes = %APPEND% 122.224.166.70/32
-skip-proxy = %APPEND% 122.224.166.70
+
 [Rule]
 DEST-PORT,13512,DIRECT
 IP-CIDR,111.111.253.32/32,DIRECT,no-resolve
