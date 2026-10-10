@@ -1,0 +1,18 @@
+# NAME: ZhengZhengDing-Direct
+# GENERATED-FOR: Anywhere Routing Rule Set
+# DESCRIPTION: 浙政钉/专有钉钉消息推送、网关与苹果 APNs 直连
+# RULES: 12
+
+name = ZhengZhengDing-Direct
+2, mhs.gzdaitu.com
+2, dingtalk.com
+2, dingtalkapps.com
+2, zhengzhengding.com
+2, alicdn.com
+2, aliyun.com
+2, push.apple.com
+3, zhengzhengding
+3, zwdd
+3, gzdaitu
+3, alipay
+0, 17.0.0.0/8
