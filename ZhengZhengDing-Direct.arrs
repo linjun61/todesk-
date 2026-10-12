@@ -1,18 +1,16 @@
-# NAME: ZhengZhengDing-Direct
-# GENERATED-FOR: Anywhere Routing Rule Set
-# DESCRIPTION: 浙政钉/专有钉钉消息推送、网关与苹果 APNs 直连
-# RULES: 12
+# ==========================================
+# 浙政钉（政务钉钉）及浙江政务云直连规则
+# ==========================================
+DOMAIN-SUFFIX, zj.gov.cn, DIRECT
+DOMAIN-SUFFIX, ding.zj.gov.cn, DIRECT
+DOMAIN-SUFFIX, gongtong.com, DIRECT
+DOMAIN-SUFFIX, gov.cn, DIRECT
 
-name = ZhengZhengDing-Direct
-2, mhs.gzdaitu.com
-2, dingtalk.com
-2, dingtalkapps.com
-2, zhengzhengding.com
-2, alicdn.com
-2, aliyun.com
-2, push.apple.com
-3, zhengzhengding
-3, zwdd
-3, gzdaitu
-3, alipay
-0, 17.0.0.0/8
+# 专有钉钉/政务钉钉底层服务域名
+DOMAIN-SUFFIX, zhengzhengding.com, DIRECT
+DOMAIN-SUFFIX, zwdd.com, DIRECT
+DOMAIN-SUFFIX, zzd.com, DIRECT
+
+# 阿里政务云及 CDN 节点
+DOMAIN-SUFFIX, aliyuncs.com, DIRECT
+DOMAIN-SUFFIX, alicdn.com, DIRECT
